@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Docker') {
             steps {
-                sh 'docker build -t ubuntu'
+                sh 'docker build -t shivakcenterprice .'
             }
         }
     }
